@@ -8,50 +8,79 @@ body {
     background-image: url("../assets/code.jpg");
     background-size: 100%;
 }
-body, html {
-height: 100%
-}
-.bg {
+
+/* .bg {
   background-image: url("../assets/code.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-}
+} */
 
 .content-footer,
-.masthead-heading,
-.masthead-intro,
-.name-heading {
+.heading,
+
+.header {
   text-align: left justify;
 }
 
 .header {
-  padding-top: 6px;
+  /* display: flex; */
+  padding-top: 2px;
   margin-right: 20px;
-  float:;
+  
   /* background-image: url('../assets/code.jpg') ; */
   /* background-image: url('../img/code.jpg');  */
   background-size: cover;
   background-repeat: no-repeat;
 }
-  .masthead-intro {
-    margin-bottom: -0.15em;
+.flexbox-container {
+  display: flex;
+  align-items: center;
+}
+.flexbox-item-1 {
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;  
+  border: 10px solid blue;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color:  rgb(70, 59, 58)
+}
+.flexbox-item-2 {
+  justify-content: center;
+  border: 10px solid green;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 40px;
+  background-color:  rgb(62, 58, 70)
+}
+.flexbox-item-3 {
+  justify-content: center;
+  border: 10px solid purple;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+  .flexbox-item-1 h3, .flexbox-item-2 h3, .flexbox-item-3 h3 {
     font-size: 5em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: yellow;
+    align-items: center;
+    padding-top: 0px;
+    margin-bottom: 2px;
   }
 
-.masthead-heading {
+.header {
     margin-top: 0.1em;
     font-weight: bold;
-    font-size: 3em;
-    letter-spacing: -0.02em;
+    font-size: 1.25em;
+    /* letter-spacing: -0.02em; */
    /* text-transform: uppercase; */
     color: lime 
 }
 
-.name-heading {
+.heading {
   margin-top: -0.2em;
   font-weight: bold;
   font-size: 4em;
@@ -62,27 +91,29 @@ height: 100%
 }
 
 .details {
-    max-width: 38em;
+    max-width: 700em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
-.details > p {
+.details  p {
     font-weight: 300;
     letter-spacing: 0.05em;
 }
 
-.details > h2 {
+/* .details > h3 {
     font-size: 1.2em;
     font-weight: bold;
     margin: 2em 0 1em 0;
-}
+} */
 
-section > h1 {
+section h1 {
     margin-top: 2em;
 }
-
+.contact-Information {
+color: lime;
+}
 #footer {
   padding: 20px 0;
   text-align: center;
@@ -91,7 +122,7 @@ section > h1 {
 }
 
 #footer a {
-  color: #ffffff;
+  color: lime;
 }
 .social > li {
   display: inline-block;

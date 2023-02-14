@@ -10,6 +10,7 @@ body {
     background-color: var(--bd-color);
     background-image: url("../assets/code.jpg");
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 /* .bg {
@@ -28,8 +29,9 @@ body {
 
 .header {
   /* display: flex; */
-  padding-top: 2px;
-  margin-right: 20px;
+  padding-top: 0px;
+  margin-right: 2px;
+  /* background-color: #111111; */
   
   /* background-image: url('../assets/code.jpg') ; */
   /* background-image: url('../img/code.jpg');  */
@@ -38,7 +40,7 @@ body {
   
   margin-top: 0.1em;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1em;
   /* letter-spacing: -0.02em; */
  /* text-transform: uppercase; */
   color: var(--ft-color) 
@@ -64,15 +66,17 @@ body {
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 40px;
-  background-color:  rgb(62, 58, 70)
+  /* background-color:  rgb(62, 58, 70) */
 }
 .flexbox-item-3 {
+  
   justify-content: center;
   border: 10px solid var(--ft-color);
   border-radius: 30px;
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 40px;
+  /* float: right; */
   /* background-color:  rgb(70, 59, 58); */
 }
   .flexbox-item-1 h3, .flexbox-item-2 h3, .flexbox-item-3 h3 {
@@ -87,9 +91,9 @@ body {
 
 
 .heading {
-  margin-top: -0.2em;
+  margin-top: -0.1em;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: -0.01em;
   /*text-transform: uppercase;*/
   color: var(--bd-color);
@@ -133,4 +137,10 @@ color: var(--ft-color);
 .social li {
   display: inline-block;
   margin: 0 5px;
+}
+.digital-marketing-meeting img {
+  max-height: 50%;
+}
+.float-right {
+  float: right;
 }

@@ -26,6 +26,23 @@ body {
  {
   text-align: left justify;
 }
+span[data-desc], span[data-desk] {
+  position: relative;
+  color: orange;
+}
+span[data-desc]:hover::after {
+  content: attr(data-desc);
+  position: absolute;
+  left: 0px;
+  bottom: 24px;
+  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  background-color: salmon;
+  padding: 12px;
+  color: black;
+  font-size: 80%;
+  z-index: 1;
+}
 
 .header {
   /* display: flex; */

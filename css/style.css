@@ -18,7 +18,7 @@ body {
  {
   text-align: left justify;
 }
-span[data-desc], span[data-desk] {
+span[data-desc] {
   position: relative;
   color: orange;
 }

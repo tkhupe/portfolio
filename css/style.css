@@ -8,7 +8,7 @@ body {
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
     background-color: var(--bd-color);
-    background-image: url("../assets/code.jpg");
+    background-image: url("../Assets/code.jpg");
     background-size: 100%;
     background-attachment: fixed;
 }

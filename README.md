@@ -5,7 +5,7 @@
 This is an application to present a portfolio of me, my work, achievements and projects I am currently working on.
 
 - To help increase internet visibility and job search success.
-- It is a resume hilighting my archievements
+- It is a resume highlighting my achievements
 - It will be a significant part of my job search
 - How to build a profile accessible in different media screens
 ## License

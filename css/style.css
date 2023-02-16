@@ -16,7 +16,7 @@ body {
 
 .heading, .header
  {
-  text-align: left justify;
+  text-align: left;
 }
 .details h2 {
   color: var(--ft-color)

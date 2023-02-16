@@ -2,29 +2,32 @@
   --ft-color: lime;
   --bd-color: yellow;
 }
- 
+
 body {
-    color: white; 
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    background-color: var(--bd-color);
-    background-image: url("../Assets/code.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
+  color: white;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--bd-color);
+  background-image: url("../Assets/code.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 
-.heading, .header
- {
+.heading,
+.header {
   text-align: left;
 }
+
 .details h2 {
   color: var(--ft-color)
 }
+
 span[data-desc] {
   position: relative;
   color: var(--bd-color)
 }
+
 span[data-desc]:hover::after {
   content: attr(data-desc);
   position: absolute;
@@ -44,26 +47,29 @@ span[data-desc]:hover::after {
   margin-right: 2px;
   background-size: cover;
   background-repeat: no-repeat;
-  
+
   margin-top: 0.1em;
   font-weight: bold;
   font-size: 1em;
-  color: var(--ft-color) 
+  color: var(--ft-color)
 }
+
 .flexbox-container {
   display: flex;
   align-items: center;
 }
+
 .flexbox-item-1 {
   justify-content: center;
   padding-right: 10px;
-  padding-left: 10px;  
+  padding-left: 10px;
   border: 10px solid var(--ft-color);
   border-radius: 30px;
   align-items: center;
   margin-bottom: 40px;
-  
+
 }
+
 .flexbox-item-2 {
   justify-content: center;
   border: 10px solid var(--ft-color);
@@ -71,24 +77,28 @@ span[data-desc]:hover::after {
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 40px;
-  }
+}
+
 .flexbox-item-3 {
-  
+
   justify-content: center;
   border: 10px solid var(--ft-color);
   border-radius: 30px;
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 40px;
-  
+
 }
-  .flexbox-item-1 h3, .flexbox-item-2 h3, .flexbox-item-3 h3 {
-    font-size: 5em;
-    color: var(--bd-color);
-    align-items: center;
-    padding-top: 0px;
-    margin-bottom: 2px;
-  }
+
+.flexbox-item-1 h3,
+.flexbox-item-2 h3,
+.flexbox-item-3 h3 {
+  font-size: 5em;
+  color: var(--bd-color);
+  align-items: center;
+  padding-top: 0px;
+  margin-bottom: 2px;
+}
 
 
 
@@ -102,25 +112,27 @@ span[data-desc]:hover::after {
 }
 
 .details {
-    max-width: 700em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
+  max-width: 700em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
 }
 
-.details  p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
+.details p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 
 
 section h1 {
-    margin-top: 2em;
+  margin-top: 2em;
 }
+
 .contact-Information {
-color: var(--ft-color);
+  color: var(--ft-color);
 }
+
 #footer {
   padding: 20px 0;
   text-align: center;
@@ -131,13 +143,33 @@ color: var(--ft-color);
 #footer a {
   color: var(--ft-color);
 }
+
 .social li {
   display: inline-block;
   margin: 0 5px;
 }
+
 .digital-marketing-meeting img {
   max-height: 50%;
 }
+
 .float-right {
   float: right;
+}
+
+@media screen and (max-width: 992px) {
+  .digital-marketing-meeting img {
+    max-height: 50%;
+
+  }
+
+  .heading {
+    font-size: 2em;
+  }
+
+  .flexbox-item-1 h3,
+  .flexbox-item-2 h3,
+  .flexbox-item-3 h3 {
+    font-size: 3em;
+  }
 }

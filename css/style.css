@@ -90,6 +90,10 @@ span[data-desc]:hover::after {
 
 }
 
+.flexbox-item-4 {
+  display: inline-flex;
+}
+
 .flexbox-item-1 h3,
 .flexbox-item-2 h3,
 .flexbox-item-3 h3 {
@@ -160,8 +164,16 @@ section h1 {
 @media screen and (max-width: 992px) {
   .digital-marketing-meeting img {
     max-height: 50%;
-
   }
+
+  .code img {
+    max-height: 50%;
+  }
+
+  .meni-1 img {
+    max-height: 50%;
+  }
+
 
   .heading {
     font-size: 2em;
@@ -171,5 +183,9 @@ section h1 {
   .flexbox-item-2 h3,
   .flexbox-item-3 h3 {
     font-size: 3em;
+  }
+
+  body {
+    font-size: 0.85em;
   }
 }
